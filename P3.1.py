@@ -50,4 +50,3 @@ merge(lst)
 display("파이썬 리스트로 구현한 List(병합+3):")
 clear()
 display("파이썬 리스트로 구현한 List(정리후): ")
-
