@@ -18,7 +18,9 @@ def isEmpty():
         return False #False를 반환
 def isEmpty(): return len(items)==0 #크기가 0이면 True 아니면 False
 def size(): return len(items) #리스트의 크기 반환, len() 함수 이용
-def clear(): items=[] #items를 초기화 -> 오류
+def clear(): 
+    global items #items가 전역변수임을 지정
+    items=[] #전역변수 items를 초기화
 def find(item):
     global items
     for i in range(len(items)):
